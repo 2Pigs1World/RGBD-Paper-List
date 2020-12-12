@@ -23,6 +23,8 @@ Papers and resources about RGBD reconstruction in recent years
 
 * **Noise-Resilient Reconstruction of Panoramas and 3D Scenes using Robot-Mounted Unsynchronized Commodity RGB-D Cameras** [[pdf](http://orca.cf.ac.uk/130657/1/DepthPano-TOG2020.pdf)] *TOG2020*
 
+* A Vertex-to-Edge Weighted Closed-Form Method for Dense RGB-D Indoor SLAM [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649628)] *IEEE ACCESS 2019*
+
   
 
 ### 3D Semantic Instance Segmentation
@@ -36,6 +38,15 @@ Papers and resources about RGBD reconstruction in recent years
 ### Learning-based RGB-D Reconstruction
 ---
 * **DeepDeform: Learning Non-rigid RGB-D Reconstruction with Semi-supervised Data** [[pdf](https://arxiv.org/pdf/1912.04302.pdf)] [[data](https://github.com/AljazBozic/DeepDeform)] *CVPR 2020* 
+
+* **Visual Camera Re-Localization from RGB and RGB-D Images Using DSAC** [[pdf](https://arxiv.org/pdf/2002.12324.pdf)] *arXiv 2020*
+
+* **SPSG: Self-Supervised Photometric Scene Generation from RGB-D Scans**
+[[pdf](https://arxiv.org/pdf/2006.14660.pdf)] *arXiv 2020*
+
+* **X-Section: Cross-Section Prediction for Enhanced RGB-D Fusion** [[pdf](https://openaccess.thecvf.com/content_ICCV_2019/papers/Nicastro_X-Section_Cross-Section_Prediction_for_Enhanced_RGB-D_Fusion_ICCV_2019_paper.pdf)] *ICCV 2019*
+
+
 
 
 
