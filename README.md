@@ -23,6 +23,10 @@ Papers and resources about RGBD reconstruction in recent years
 
 * **Noise-Resilient Reconstruction of Panoramas and 3D Scenes using Robot-Mounted Unsynchronized Commodity RGB-D Cameras** [[pdf](http://orca.cf.ac.uk/130657/1/DepthPano-TOG2020.pdf)] *TOG2020*
 
+* **Real-Time Global Registration for Globally Consistent RGB-D SLAM** [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8606275)] *TOR 2019*
+
+* **Robust RGB-D SLAM Using Point and Line Features for Low Textured Scene** [[pdf](https://www.mdpi.com/1424-8220/20/17/4984/pdf)]  \[[code](https://michaelgrupp.github.io/evo/)] *Sensors 2020*
+
   
 
 ### 3D Semantic Instance Segmentation

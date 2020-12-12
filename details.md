@@ -96,3 +96,20 @@
 
 
 
+----
+
+##### Real-Time Global Registration for Globally Consistent RGB-D SLAM
+
+###### [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8606275)] TOR 2019
+
+> Real-time globally consistent camera localization is critical for visual simultaneous localization and mapping (SLAM) applications. Regardless the popularity of high efficient pose graph optimization as a backend in SLAM, its deficiency in accuracy can hardly benefit the reconstruction application. An alternative solution for the sake of high accuracy would be global registration, which minimizes the alignment error of all the corresponding observations, yet suffers from high complexity due to the tremendous observations that need to be considered. In this paper, we start by analyzing the complexity bottleneck of global point cloud registration problem, i.e., each observation (three-dimensional point feature) has to be linearized based on its local coordinate (camera poses), which however is nonlinear and dynamically changing, resulting in extensive computation during optimization. We further prove that such nonlinearity can be decoupled into linear component (feature position) and nonlinear components (camera poses), where the former linear one can be effectively represented by its compact second-order statistics, while the latter nonlinear one merely requires six degrees of freedom for each camera pose. Benefiting from the decoupled representation, the complexity can be significantly reduced without sacrifice in accuracy. Experiments show that the proposed algorithm achieves globally consistent pose estimation in real-time via CPU computing, and owns comparable accuracy as state-of-the-art that use GPU computing, enabling the practical usage of globally consistent RGB-D SLAM on highly computationally constrained devices.
+
+
+
+---
+
+##### Robust RGB-D SLAM Using Point and Line Features for Low Textured Scene
+
+###### [[pdf](https://www.mdpi.com/1424-8220/20/17/4984/pdf)] \[[code](https://michaelgrupp.github.io/evo/)]  Sensors2020
+
+> Three-dimensional (3D) reconstruction using RGB-D camera with simultaneous color image and depth information is attractive as it can significantly reduce the cost of equipment and time for data collection. Point feature is commonly used for aligning two RGB-D frames. Due to lacking reliable point features, RGB-D simultaneous localization and mapping (SLAM) is easy to fail in low textured scenes. To overcome the problem, this paper proposes a robust RGB-D SLAM system fusing both points and lines, because lines can provide robust geometry constraints when points are insufficient. To comprehensively fuse line constraints, we combine 2D and 3D line reprojection error with point reprojection error in a novel cost function. To solve the cost function and filter out wrong feature matches, we build a robust pose solver using the Gauss–Newton method and Chi-Square test. To correct the drift of camera poses, we maintain a sliding-window framework to update the keyframe poses and related features. We evaluate the proposed system on both public datasets and real-world experiments. It is demonstrated that it is comparable to or better than state-of-the-art methods in consideration with both accuracy and robustness.
