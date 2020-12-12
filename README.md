@@ -15,7 +15,7 @@ Papers and resources about RGBD reconstruction in recent years
 
 * **Real-time Indoor Scene Reconstruction with RGBD and Inertia Input**  [[pdf](https://arxiv.org/pdf/1812.03015)] \[[dataset](https://github.com/zhuzunjie17/FastFusion)]   *ICME 2019 Best Student Paper Award*
 
-* **TextureFusion: High-Quality Texture Acquisition for Real-Time RGB-D Scanning** \[[pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_TextureFusion_High-Quality_Texture_Acquisition_for_Real-Time_RGB-D_Scanning_CVPR_2020_paper.pdf)] [[code]((https://github.com/ KAIST-VCLAB/texturefusion.git))]  *CVPR 2020*
+* **TextureFusion: High-Quality Texture Acquisition for Real-Time RGB-D Scanning** \[[pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_TextureFusion_High-Quality_Texture_Acquisition_for_Real-Time_RGB-D_Scanning_CVPR_2020_paper.pdf)] [[code]((https://github.com/KAIST-VCLAB/texturefusion.git))]  *CVPR 2020*
 
 * **Geometry-Aware ICP for Scene Reconstruction from RGB-D Camera** [[pdf](http://www.sci-hub.ren/10.1007/s11390-019-1928-6)] *JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY 2019*
 
