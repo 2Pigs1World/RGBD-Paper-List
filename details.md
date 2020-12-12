@@ -53,3 +53,46 @@
 > We present an autonomous scanning approach which allows multiple robots to perform collaborative scanning for dense 3D reconstruction of unknown indoor scenes. Our method plans scanning paths for several robots, allowing them to efficiently coordinate with each other such that the collective scanning coverage and reconstruction quality is maximized while the overall scanning effort is minimized. To this end, we define the problem as a dynamic task assignment and introduce a novel formulation based on Optimal Mass Transport (OMT). Given the currently scanned scene, a set of task views are extracted to cover scene regions which are either unknown or uncertain. These task views are assigned to the robots based on the OMT optimization. We then compute for each robot a smooth path over its assigned tasks by solving an approximate traveling salesman problem. In order to showcase our algorithm, we implement a multi-robot auto-scanning system. Since our method is computationally efficient, we can easily run it in real time on commodity hardware, and combine it with online RGB-D reconstruction approaches. In our results, we show several real-world examples of large indoor environments; in addition, we build a benchmark with a series of carefully designed metrics for quantitatively evaluating multi-robot autoscanning. Overall, we are able to demonstrate high-quality scanning results with respect to reconstruction quality and scanning efficiency, which significantly outperforms existing multi-robot exploration systems.
 
 我们提出了一种自主扫描方法，允许多个机器人协同扫描，对未知的室内场景进行密集的三维重建。我们的方法为多个机器人规划扫描路径，使它们能够有效地相互协调，从而在最大程度上提高扫描覆盖率和重建质量，同时使整体扫描工作量最小化。为此，我们将该问题定义为一个动态任务分配问题，并引入了一种新的基于最优质量传输（OMT）的计算公式。针对当前扫描的场景，提取一组任务视图来覆盖未知或不确定的场景区域。这些任务视图是基于OMT优化分配给机器人的。然后我们通过求解一个近似的旅行商问题来计算每个机器人在其指定任务上的平滑路径。为了展示我们的算法，我们实现了一个多机器人自动扫描系统。由于我们的方法计算效率高，我们可以很容易地在商品硬件上实时运行，并与在线RGB-D重建方法相结合。在我们的结果中，我们展示了几个真实的大型室内环境的例子；此外，我们建立了一个基准与一系列精心设计的指标，以定量评估多机器人自动扫描。总体而言，我们能够展示高质量的扫描结果，在重建质量和扫描效率方面，这明显优于现有的多机器人探测系统。
+
+
+
+---
+
+##### TextureFusion: High-Quality Texture Acquisition for Real-Time RGB-D Scanning
+
+###### \[[pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lee_TextureFusion_High-Quality_Texture_Acquisition_for_Real-Time_RGB-D_Scanning_CVPR_2020_paper.pdf)] [[code]((https://github.com/ KAIST-VCLAB/texturefusion.git))]  CVPR 2020
+
+> Real-time RGB-D scanning technique has become widely used to progressively scan objects with a hand-held sensor. Existing online methods restore color information per voxel, and thus their quality is often limited by the tradeoff between spatial resolution and time performance. Also, such methods often suffer from blurred artifacts in the captured texture. Traditional offline texture mapping methods with non-rigid warping assume that the reconstructed geometry and all input views are obtained in advance, and the optimization takes a long time to compute mesh parameterization and warp parameters, which prevents them from being used in real-time applications. In this work, we propose a progressive texture-fusion method specially designed for real-time RGB-D scanning. To this end, we first devise a novel texture-tile voxel grid, where texture tiles are embedded in the voxel grid of the signed distance function, allowing for high-resolution texture mapping on the low-resolution geometry volume. Instead of using expensive mesh parameterization, we associate vertices of implicit geometry directly with texture coordinates. Second, we introduce real-time texture warping that applies a spatiallyvarying perspective mapping to input images so that texture warping efficiently mitigates the mismatch between the intermediate geometry and the current input view. It allows us to enhance the quality of texture over time while updating the geometry in real-time. The results demonstrate that the quality of our real-time texture mapping is highly competitive to that of exhaustive offline texture warping methods. Our method is also capable of being integrated into existing RGB-D scanning frameworks
+
+
+
+---
+
+##### Geometry-Aware ICP for Scene Reconstruction from RGB-D Camera
+
+###### [[pdf](http://www.sci-hub.ren/10.1007/s11390-019-1928-6)] JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY 2019
+
+> The Iterative Closest Point (ICP) scheme has been widely used for the registration of surfaces and point clouds. However, when working on depth image sequences where there are large geometric planes with small (or even without) details, existing ICP algorithms are prone to tangential drifting and erroneous rotational estimations due to input device errors. In this paper, we propose a novel ICP algorithm that aims to overcome such drawbacks, and provides significantly stabler registration estimation for simultaneous localization and mapping (SLAM) tasks on RGB-D camera inputs. In our approach, the tangential drifting and the rotational estimation error are reduced by: 1) updating the conventional Euclidean distance term with the local geometry information, and 2) introducing a new camera stabilization term that prevents improper camera movement in the calculation. Our approach is simple, fast, effective, and is readily integratable with previous ICP algorithms. We test our new method with the TUM RGB-D SLAM dataset on state-of-the-art real-time 3D dense reconstruction platforms, i.e., ElasticFusion and Kintinuous. Experiments show that our new strategy outperforms all previous ones on various RGB-D data sequences under different combinations of registration systems and solutions.
+
+
+
+---
+
+##### Joint Texture and Geometry Optimization for RGB-D Reconstruction
+
+###### [[pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fu_Joint_Texture_and_Geometry_Optimization_for_RGB-D_Reconstruction_CVPR_2020_paper.pdf)] CVPR 2020
+
+> Due to inevitable noises and quantization error, the reconstructed 3D models via RGB-D sensors always accompany geometric error and camera drifting, which consequently lead to blurring and unnatural texture mapping results. Most of the 3D reconstruction methods focus on either geometry refinement or texture improvement respectively, which subjectively decouples the inter-relationship between geometry and texture. In this paper, we propose a novel approach that can jointly optimize the camera poses, texture and geometry of the reconstructed model, and color consistency between the key-frames. Instead of computing ShapeFrom-Shading (SFS) expensively, our method directly optimizes the reconstructed mesh according to color and geometric consistency and high-boost normal cues, which can effectively overcome the texture-copy problem generated by SFS and achieve more detailed shape reconstruction. As the joint optimization involves multiple correlated terms, therefore, we further introduce an iterative framework to interleave the optimal state. The experiments demonstrate that our method can recover not only fine-scale geometry but also high-fidelity texture.
+
+
+
+---
+
+##### Noise-Resilient Reconstruction of Panoramas and 3D Scenes using Robot-Mounted Unsynchronized Commodity RGB-D Cameras
+
+###### [[pdf](http://orca.cf.ac.uk/130657/1/DepthPano-TOG2020.pdf)] TOG2020
+
+>We present a two-stage approach to irst constructing 3D panoramas and then stitching them for noise-resilient reconstruction of large-scale indoor scenes. Our approach requires multiple unsynchronized RGB-D cameras, mounted on a robot platform which can perform in-place rotations at diferent locations in a scene. Such cameras rotate on a common (but unknown) axis, which provides a novel perspective for coping with unsynchronized cameras, without requiring suicient overlap of their Field-of-View (FoV). Based on this key observation, we propose novel algorithms to track these cameras simultaneously. Furthermore, during the integration of raw frames onto an equirectangular panorama, we derive uncertainty estimates from multiple measurements assigned to the same pixels. This enables us to appropriately model the sensing noise and consider its inluence, so as to achieve better noise resilience, and improve the geometric quality of each panorama and the accuracy of global inter-panorama registration. We evaluate and demonstrate the performance of our proposed method for enhancing the geometric quality of scene reconstruction from both real-world and synthetic scans.
+
+
+
