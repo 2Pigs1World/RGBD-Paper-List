@@ -22,7 +22,7 @@
 
 ----
 
-#####BAD SLAM: Bundle Adjusted Direct RGB-D SLAM
+##### BAD SLAM: Bundle Adjusted Direct RGB-D SLAM
 
 ###### \[[pdf](https://openaccess.thecvf.com/content_CVPR_2019/papers/Schops_BAD_SLAM_Bundle_Adjusted_Direct_RGB-D_SLAM_CVPR_2019_paper.pdf)]  \[[project page](www.eth3d.net)] CVPR 2019
 
@@ -96,6 +96,10 @@
 
 
 
+
+
+
+
 ----
 
 ##### Real-Time Global Registration for Globally Consistent RGB-D SLAM
@@ -113,3 +117,11 @@
 ###### [[pdf](https://www.mdpi.com/1424-8220/20/17/4984/pdf)] \[[code](https://michaelgrupp.github.io/evo/)]  Sensors2020
 
 > Three-dimensional (3D) reconstruction using RGB-D camera with simultaneous color image and depth information is attractive as it can significantly reduce the cost of equipment and time for data collection. Point feature is commonly used for aligning two RGB-D frames. Due to lacking reliable point features, RGB-D simultaneous localization and mapping (SLAM) is easy to fail in low textured scenes. To overcome the problem, this paper proposes a robust RGB-D SLAM system fusing both points and lines, because lines can provide robust geometry constraints when points are insufficient. To comprehensively fuse line constraints, we combine 2D and 3D line reprojection error with point reprojection error in a novel cost function. To solve the cost function and filter out wrong feature matches, we build a robust pose solver using the Gauss–Newton method and Chi-Square test. To correct the drift of camera poses, we maintain a sliding-window framework to update the keyframe poses and related features. We evaluate the proposed system on both public datasets and real-world experiments. It is demonstrated that it is comparable to or better than state-of-the-art methods in consideration with both accuracy and robustness.
+
+##### DeepDeform: Learning Non-Rigid RGB-D Reconstruction With Semi-Supervised Data
+
+###### [[pdf](https://arxiv.org/pdf/1912.04302.pdf)] [[data](https://github.com/AljazBozic/DeepDeform)]
+
+>Applying data-driven approaches to non-rigid 3D reconstruction has been difficult, which we believe can be attributed to the lack of a large-scale training corpus. Unfortunately, this method fails for important cases such as highly non-rigid deformations. We first address this problem of lack of data by introducing a novel semi-supervised strategy to obtain dense inter-frame correspondences from a sparse set of annotations. This way, we obtain a large dataset of 400 scenes, over 390,000 RGB-D frames, and 5,533 densely aligned frame pairs; in addition, we provide a test set along with several metrics for evaluation. Based on this corpus, we introduce a data-driven nonrigid feature matching approach, which we integrate into an optimization-based reconstruction pipeline. Here, we propose a new neural network that operates on RGB-D frames, while maintaining robustness under large non-rigid deformations and producing accurate predictions. Our approach significantly outperforms existing non-rigid reconstruction methods that do not use learned data terms, as well as learning-based approaches that only use self-supervision.
+
+>将数据驱动的方法应用于非刚性三维重建一直是一个困难的问题，我们认为这可以归因于缺乏大规模的训练语料库。不幸的是，这种方法对于高度非刚性变形等重要情况是失败的。我们首先通过引入一种新的半监督策略来解决数据不足的问题，从稀疏的注释集中获得密集的帧间对应。通过这种方式，我们获得了一个包含400个场景、超过390000个RGB-D帧和5533个密集对齐帧对的大型数据集；此外，我们还提供了一个测试集以及一些用于评估的度量。基于此语料库，我们引入了一种数据驱动的非刚性特征匹配方法，并将其集成到基于优化的重建流水线中。在这里，我们提出了一种新的神经网络，它可以在RGB-D框架上工作，同时在大的非刚性变形下保持鲁棒性并产生精确的预测。我们的方法明显优于现有的不使用学习数据项的非刚性重建方法，以及只使用自我监督的基于学习的方法。

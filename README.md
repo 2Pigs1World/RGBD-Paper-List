@@ -35,9 +35,11 @@ Papers and resources about RGBD reconstruction in recent years
 
 * **3D-SIS: 3D Semantic Instance Segmentation of RGB-D Scans** \[[pdf](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hou_3D-SIS_3D_Semantic_Instance_Segmentation_of_RGB-D_Scans_CVPR_2019_paper.pdf)\] *CVPR 2019*
 
-  
 
-  ###### 
+
+### Learning-based RGB-D Reconstruction
+---
+* **DeepDeform: Learning Non-rigid RGB-D Reconstruction with Semi-supervised Data** [[pdf](https://arxiv.org/pdf/1912.04302.pdf)] [[data](https://github.com/AljazBozic/DeepDeform)] *CVPR 2020* 
 
 
 
